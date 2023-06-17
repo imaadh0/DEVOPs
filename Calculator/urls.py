@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls import re_path as url
+from django.urls import re_path as url, include
 
 urlpatterns = [
     url(r'^$', include('calc.urls')),
