@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'devopsCal'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7C5DD17847C14AA4A21194E1CA708348 }}
+          publish-profile: ${{ secrets.PUBLISH_PROFILE }}
